@@ -1,0 +1,16 @@
+.refletido div{
+    position: relative;
+    font-size: 150px;
+    user-select: none;
+}
+.refletido div:last-child{
+    color: red;
+    transform: rotate(180deg);
+    transform: rotateX(180deg);
+    margin-top: -65px;
+    background-image: linear-gradient(to top, #222,#c1c1c1, #fff, #fff);
+    -webkit-background-clip: text; /* Para navegadores baseados em WebKit */
+    -moz-background-clip: text; /* Para navegadores baseados em Gecko (Firefox) */
+    background-clip: text;
+    color: transparent;
+}
